@@ -1,0 +1,24 @@
+{
+  "name": "cider-ci-cli",
+  "version": "0.0.1",
+  "description": "(WIP) CLI for cider-ci",
+  "main": "cider.js",
+  "bin": {
+    "cider": "./cider.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "cider-ci"
+  ],
+  "author": "Max F. Albrecht <1@178.is>",
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "git-tools": "^0.1.1",
+    "colors": "^0.6.2",
+    "open": "0.0.5"
+  }
+}
